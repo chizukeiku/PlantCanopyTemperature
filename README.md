@@ -1,5 +1,4 @@
 ## <div align="center">Plant Canopy Temperature</div>
-
 <div align="center">
     <a href="https://colab.research.google.com/github/chizukeiku/PlantCanopyTemperature/blob/main/PlantCanopyMask.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   </div>
@@ -14,9 +13,7 @@ This project was used in my undergraduate thesis <a href="https://etd.repository
 4. Extract thermal data using IRimage plugins on "1-Process" menu
 5. Open colab 
 6. Change source file path
-7. Acquire thermal data on "2-Measure" menu using plant mask from no. 5
-</div>
-</br>
+7. Acquire thermal data on "2-Measure" menu using plant mask from no. 5 </br>
 
 ## <div align="center">Results</div>
 
@@ -27,15 +24,14 @@ Thermal data in plant canopy images taken from FLIR CX-3 was able to be extracte
 |<img width="680" src="results/result1.jpg" title="Thermal Image">| <img src="results/result2.png" title="Image Segmentation">| <img width="680" src="results/result3.png" title="Mask">|
 
 ### Example of plant canopy temperature in table
-<p align="center"><img width="680" src="results/result4.png">
+<p align="center"><img width="480" src="results/result4.png" title="Plant Canopy Temperature Table">
 
 ### Plant canopy temperature reading validation
 | Thermometer gun and FLIR Thermal camera             | FLIR Thermal camera and Mask                              | Mask and thermometer gun                    |
 |-----------------------------------------------------|-----------------------------------------------------------|---------------------------------------------|
 |<img src="results/result5.png" title="Thermal Image" width="500">| <img src="results/result6.png" title="Image Segmentation" width="500">| <img src="results/result7.png" title="Mask" width="500">|
-<details>
-  <summary>Table Notes</summary>
-    * Thermometer gun and FLIR thermal camera reading based on 15 point scatter across plant canopy from the same spot
+### Table notes
+ * Thermometer gun and FLIR thermal camera reading based on 15 point scatter across plant canopy from the same spot
 
 ## <div align="center">About ``IRimage`` <br>-Open source software for processing images from infrared thermal cameras-</br></div>
 
