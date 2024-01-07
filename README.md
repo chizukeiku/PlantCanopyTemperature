@@ -1,4 +1,24 @@
-## ``IRimage`` Open source software for processing images from infrared thermal cameras
+## <div align="center">Plant Canopy Temperature</div>
+
+<div align="center">
+    <a href="https://colab.research.google.com/github/chizukeiku/MangoYOLOv5/blob/master/MangoDetectionYOLOv5.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  </div>
+
+This project was used for my undergraduate thesis <a href="https://etd.repository.ugm.ac.id/penelitian/detail/226056">"Performance Analysis of FLIR Thermal Camera in Plant Canopy Temperature Monitoring System and Its Sensitivity to Greenhouse Environment"</a>. 
+
+**How to Acquire Plant Canopy Temperature:**
+<br>
+1. Install ImageJ
+2. Install IRimage (see below to see installation detail)
+3. Open ImageJ
+4. Extract thermal data using IRimage plugins on "1-Process" menu
+5. Open colab 
+6. Change source file path
+7. Acquire thermal data on "2-Measure" menu using plant mask from no. 5
+</div>
+</br>
+
+## <div align="center">About ``IRimage`` <br>-Open source software for processing images from infrared thermal cameras-</br></div>
 
 ### Summary
 
@@ -66,18 +86,6 @@ With IRimage-UAV:
 - DJI Zenmuse H20T
 - DJI Zenmuse XT S
 
-
-
-### Contributing
-Contributions are welcome! There are at least two ways to contribute:
-
-1. If you find a bug or want to suggest an enhancement, use the [issues page](https://github.com/gpereyrairujo/IRimage/issues) on this repository.
-2. If you modified, corrected or improved the macro code, you can use the [fork and pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) model.
-
-For any type of contribution, please follow the [code of conduct](CODE_OF_CONDUCT.md).
-
----
-
 ### License
 
 IRimage and IRimage-UAV Software licensed [GNU Affero General Public License v3.0](https://github.com/gpereyrairujo/IRimage/blob/main/LICENSE)   
@@ -85,14 +93,5 @@ Documentation and images licensed [CC-BY-SA-4.0](https://creativecommons.org/lic
 ExifTool is Copyright 2003-2021, Phil Harvey, licensed under [GNU General Public License](https://dev.perl.org/licenses/gpl1.html)   
 DJI Thermal SDK is Copyright 2020-2023 DJI, licensed under [MIT License](https://opensource.org/license/mit/)
 
-### How to cite
-
-If this plugin contributes to a project or publication, please acknowledge this by citing as:
-
-```
-Pereyra Irujo G. 2022. IRimage: open source software for processing images from infrared thermal cameras. PeerJ Computer Science 8:e977 https://doi.org/10.7717/peerj-cs.977
-```
-
-### Contact
-
-Gustavo Pereyra Irujo - gpereyrairujo.gustavo@conicet.gov.ar
+## <div>Reference</div>
+- Pereyra Irujo G. 2022. IRimage: open source software for processing images from infrared thermal cameras. PeerJ Computer Science 8:e977 https://doi.org/10.7717/peerj-cs.977
