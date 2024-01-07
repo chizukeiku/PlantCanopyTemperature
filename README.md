@@ -4,7 +4,7 @@
     <a href="https://colab.research.google.com/github/chizukeiku/MangoYOLOv5/blob/master/MangoDetectionYOLOv5.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   </div>
 
-This project was used for my undergraduate thesis <a href="https://etd.repository.ugm.ac.id/penelitian/detail/226056">"Performance Analysis of FLIR Thermal Camera in Plant Canopy Temperature Monitoring System and Its Sensitivity to Greenhouse Environment"</a>. 
+This project was used in my undergraduate thesis <a href="https://etd.repository.ugm.ac.id/penelitian/detail/226056">"Performance Analysis of FLIR Thermal Camera in Plant Canopy Temperature Monitoring System and Its Sensitivity to Greenhouse Environment"</a>. 
 
 **How to Acquire Plant Canopy Temperature:**
 <br>
@@ -95,3 +95,4 @@ DJI Thermal SDK is Copyright 2020-2023 DJI, licensed under [MIT License](https:/
 
 ## <div>Reference</div>
 - Pereyra Irujo G. 2022. IRimage: open source software for processing images from infrared thermal cameras. PeerJ Computer Science 8:e977 https://doi.org/10.7717/peerj-cs.977
+- Gehan MA*, Fahlgren N*, Abbasi A, Berry JC, Callen ST, Chavez L, Doust AN, Feldman MJ, Gilbert KB, Hodge JG, Hoyer JS, Lin A, Liu S, Lizárraga C, Lorence A, Miller M, Platon E, Tessman M, Sax T. 2017. PlantCV v2: Image analysis software for high-throughput plant phenotyping. PeerJ 5:e4088. DOI: 10.7717/peerj.4088
