@@ -1,10 +1,10 @@
 ## <div align="center">Plant Canopy Temperature</div>
 
 <div align="center">
-    <a href="https://colab.research.google.com/github/chizukeiku/MangoYOLOv5/blob/master/MangoDetectionYOLOv5.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+    <a href="https://colab.research.google.com/github/chizukeiku/PlantCanopyTemperature/blob/main/PlantCanopyMask.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
   </div>
 
-This project was used in my undergraduate thesis <a href="https://etd.repository.ugm.ac.id/penelitian/detail/226056">"Performance Analysis of FLIR Thermal Camera in Plant Canopy Temperature Monitoring System and Its Sensitivity to Greenhouse Environment"</a>. 
+This project was used in my undergraduate thesis <a href="https://etd.repository.ugm.ac.id/penelitian/detail/226056">"Performance Analysis of FLIR Thermal Camera in Plant Canopy Temperature Monitoring System and Its Sensitivity to Greenhouse Environment"</a>. Thermal camera used in monitoring bok choy (Brassica rapa subsp. chinensis) canopy temperature was FLIR CX-3. Greenhouse (PT Adidaya Pertanian dan Pangan Indonesia or Agrarise) was located in Yogyakarta, Indonesia. This research was done with the help of Smart Agriculture Research Group.
 
 **How to Acquire Plant Canopy Temperature:**
 <br>
@@ -17,6 +17,25 @@ This project was used in my undergraduate thesis <a href="https://etd.repository
 7. Acquire thermal data on "2-Measure" menu using plant mask from no. 5
 </div>
 </br>
+
+## <div align="center">Results</div>
+
+Thermal data in plant canopy images taken from FLIR CX-3 was able to be extracted. Image segmentation method was binary threshold. Plant canopy temperature acquired from masking was able to represent actual plant canopy temperature.
+
+|                 Thermal Image                       |        Image Segmentation                                 | Mask                                        |
+|-----------------------------------------------------|-----------------------------------------------------------|---------------------------------------------|
+|<img width="680" src="results/result1.jpg" title="Thermal Image">| <img src="results/result2.png" title="Image Segmentation">| <img width="680" src="results/result3.png" title="Mask">|
+
+### Example of plant canopy temperature in table
+<p align="center"><img width="680" src="results/result4.png">
+
+### Plant canopy temperature reading validation
+| Thermometer gun and FLIR Thermal camera             | FLIR Thermal camera and Mask                              | Mask and thermometer gun                    |
+|-----------------------------------------------------|-----------------------------------------------------------|---------------------------------------------|
+|<img src="results/result5.png" title="Thermal Image" width="500">| <img src="results/result6.png" title="Image Segmentation" width="500">| <img src="results/result7.png" title="Mask" width="500">|
+<details>
+  <summary>Table Notes</summary>
+    * Thermometer gun and FLIR thermal camera reading based on 15 point scatter across plant canopy from the same spot
 
 ## <div align="center">About ``IRimage`` <br>-Open source software for processing images from infrared thermal cameras-</br></div>
 
